@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "count": 1,
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:multishot",
+                "minecraft:quick_charge",
+                "minecraft:piercing",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "count": 1,
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:power",
+                "minecraft:punch",
+                "minecraft:flame",
+                "minecraft:infinity",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "count": {
+            "min": 16,
+            "max": 32
+          },
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "count": {
+            "min": 8,
+            "max": 16
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "count": {
+            "min": 8,
+            "max": 16
+          },
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "count": 1,
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "count": 1,
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:loyalty",
+                "minecraft:riptide",
+                "minecraft:channeling",
+                "minecraft:impaling",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "count": {
+            "min": 5,
+            "max": 10
+          },
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "count": {
+            "min": 8,
+            "max": 15
+          },
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop",
+          "count": {
+            "min": 8,
+            "max": 15
+          },
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "count": {
+            "min": 5,
+            "max": 12
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "count": {
+            "min": 3,
+            "max": 6
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_stew",
+          "count": {
+            "min": 3,
+            "max": 6
+          },
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

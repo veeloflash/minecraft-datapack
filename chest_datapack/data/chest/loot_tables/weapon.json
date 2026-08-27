@@ -1,0 +1,127 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "count": 1,
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:sharpness",
+                "minecraft:smite",
+                "minecraft:bane_of_arthropods",
+                "minecraft:knockback",
+                "minecraft:fire_aspect",
+                "minecraft:looting",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "count": 1,
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:efficiency",
+                "minecraft:sharpness",
+                "minecraft:smite",
+                "minecraft:bane_of_arthropods",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "count": 1,
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:sharpness",
+                "minecraft:smite",
+                "minecraft:bane_of_arthropods",
+                "minecraft:knockback",
+                "minecraft:fire_aspect",
+                "minecraft:looting",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "count": 1,
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:efficiency",
+                "minecraft:sharpness",
+                "minecraft:smite",
+                "minecraft:bane_of_arthropods",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "count": 1,
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:efficiency",
+                "minecraft:fortune",
+                "minecraft:silk_touch",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "count": 1,
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:efficiency",
+                "minecraft:fortune",
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
