@@ -1,7 +1,0 @@
-{
-  "values": [
-    "chest:init",
-    "chest:setup_bossbar",
-    "chest:setup_triggers"
-  ]
-}
