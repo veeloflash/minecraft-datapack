@@ -8,105 +8,199 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow",
+          "name": "tacz:modern_kinetic_gun",
           "count": 1,
-          "weight": 3,
+          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:multishot",
-                "minecraft:quick_charge",
-                "minecraft:piercing",
-                "minecraft:unbreaking",
-                "minecraft:mending"
-              ]
+              "function": "minecraft:set_nbt",
+              "tag": "{GunId:\"tacz:akm\",AmmoCount:90,Components:{Stock:\"tacz:akm_stock\",Barrel:\"tacz:akm_barrel\",Sight:\"tacz:red_dot_sight\",Magazine:\"tacz:akm_mag_extended\"}}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "tacz:modern_kinetic_gun",
           "count": 1,
-          "weight": 3,
+          "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:power",
-                "minecraft:punch",
-                "minecraft:flame",
-                "minecraft:infinity",
-                "minecraft:unbreaking",
-                "minecraft:mending"
-              ]
+              "function": "minecraft:set_nbt",
+              "tag": "{GunId:\"tacz:m4a1\",AmmoCount:120,Components:{Stock:\"tacz:m4_stock\",Barrel:\"tacz:m4_barrel_long\",Sight:\"tacz:holographic_sight\",Magazine:\"tacz:m4_mag_extended\"}}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:arrow",
-          "count": {
-            "min": 16,
-            "max": 32
-          },
-          "weight": 4
+          "name": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunId:\"tacz:awp\",AmmoCount:20,Components:{Stock:\"tacz:awp_stock\",Barrel:\"tacz:awp_barrel\",Sight:\"tacz:sniper_scope_4x\",Magazine:\"tacz:awp_mag\"}}"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:spectral_arrow",
-          "count": {
-            "min": 8,
-            "max": 16
-          },
-          "weight": 2
+          "name": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunId:\"tacz:mp5\",AmmoCount:100,Components:{Stock:\"tacz:mp5_stock\",Barrel:\"tacz:mp5_barrel\",Sight:\"tacz:red_dot_sight\",Magazine:\"tacz:mp5_mag_extended\"}}"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tipped_arrow",
-          "count": {
-            "min": 8,
-            "max": 16
-          },
+          "name": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GunId:\"tacz:m870\",AmmoCount:24,Components:{Stock:\"tacz:m870_stock\",Barrel:\"tacz:m870_barrel\",Sight:\"tacz:iron_sight\",Magazine:\"tacz:m870_mag\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_kinetic_gun",
+          "count": 1,
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
+              "tag": "{GunId:\"tacz:glock17\",AmmoCount:60,Components:{Stock:\"tacz:iron_sight\",Barrel:\"tacz:glock17_barrel\",Sight:\"tacz:iron_sight\",Magazine:\"tacz:glock17_mag_extended\"}}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:shield",
+          "name": "tacz:ammo_box",
           "count": 1,
-          "weight": 2,
+          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:unbreaking",
-                "minecraft:mending"
-              ]
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoType:\"tacz:556nato\",Count:64}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:trident",
+          "name": "tacz:ammo_box",
           "count": 1,
-          "weight": 1,
+          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:loyalty",
-                "minecraft:riptide",
-                "minecraft:channeling",
-                "minecraft:impaling",
-                "minecraft:unbreaking",
-                "minecraft:mending"
-              ]
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoType:\"tacz:762x39\",Count:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo_box",
+          "count": 1,
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoType:\"tacz:300wm\",Count:32}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo_box",
+          "count": 1,
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoType:\"tacz:9mm\",Count:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:ammo_box",
+          "count": 1,
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoType:\"tacz:12gauge\",Count:32}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_armor",
+          "count": 1,
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ArmorType:\"tacz:level_4_helmet\",Durability:100}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_armor",
+          "count": 1,
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ArmorType:\"tacz:level_4_vest\",Durability:100}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:modern_armor",
+          "count": 1,
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ArmorType:\"tacz:level_4_leggings\",Durability:100}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:grenade",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GrenadeType:\"tacz:frag_grenade\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:grenade",
+          "count": {
+            "min": 2,
+            "max": 4
+          },
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GrenadeType:\"tacz:smoke_grenade\"}"
             }
           ]
         }
